@@ -1,0 +1,64 @@
+body {
+    background-color: #000;
+    
+}
+
+nav {
+    background-color: #e2c12b;
+}
+
+nav label {
+    color: #000;
+}
+
+section {
+    width: 100%;
+    height: 23vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #e2c12b;
+}
+
+h2, label {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+
+}
+
+.dadosBotoes_opcoes button {
+    background-color: #e2c12b;
+    border-radius: 50%;
+}
+
+.dadosBotoes_opcoes button img {
+    border-radius: 50%;
+}
+
+.dadosEscolhidos_vs img {
+    border-radius: 50%;
+
+}

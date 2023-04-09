@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Jockey Pow &#128512 </title>
+
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+
+    <body>
+        <nav>
+            <label> Home | História | Regras do Jogo </label>
+        </nav>
+        <main>
+
+            <section class="dadosTextos">
+                <div class="dadosTextos_topo">
+                    <aside>
+                        <h1 class="dadosTextos_topo_titulo"> JOCKEY POW </h1>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="dadosEscolhidos">
+                <div class="dadosEscolhidos_vs">
+                    <aside>
+                        <label> PC </label> <br>
+                        <img id="imagemComputador" src="./Imagens/jp-1.gif" width="150px" height="150px" alt="jockeypow" />
+                    </aside>
+
+                    <aside>
+                        <h1> . . . &#128512 . . . </h1>
+                    </aside>
+
+                    <aside>
+                        <label> VOCÊ </label> <br>
+                        <img id="imagemUsuario" src="./Imagens/jp-2.gif" width="150px" height="150px" alt="jockeypow" />
+                    </aside>
+                </div>
+            </section>
+
+            <section class="dadosPlacar">
+                <div class="dadosPlacar_resultado">
+                    <aside>
+                        <h1> 0 ... </h1>
+                    </aside>
+
+                    <aside>
+                        <label id="resultado"> RESULTADO </label>
+                        <br>
+                        <label>  VS  </label>
+                    </aside>
+
+                    <aside>
+                        <h1> ... 0 </h1>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="dadosBotoes">
+                <div class="dadosBotoes_opcoes">
+                    <aside>
+                        <label> Clique na sua Opção </label>
+                        <br>
+                        <button onclick="jogar(1)">
+                            <img src="./Imagens/pedra.jpg" width="50px" height="50px" alt="Pedra">
+                        </button>
+
+                        <button onclick="jogar(2)">
+                            <img src="./Imagens/papel.jpg" width="50px" height="50px" alt="Papel">
+                        </button>
+
+                        <button onclick="jogar(3)">
+                            <img src="./Imagens/tesoura.jpg" width="50px" height="50px" alt="Tesoura">
+                        </button>
+                        <br>
+                        <br>
+                        <label> Melhor de três </label>
+                        <br>
+                    </aside>
+                </div>
+            </section>
+
+        </main>
+    </body>
+</html>
